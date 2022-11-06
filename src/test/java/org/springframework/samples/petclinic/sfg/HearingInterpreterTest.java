@@ -17,12 +17,10 @@ public class HearingInterpreterTest {
    @Autowired
     HearingInterpreter hearingInterpreter;
 
-
     @Test
     public void whatIHeard() {
 
         String word = hearingInterpreter.whatIHeard();
-
         assertEquals("Laurel", word);
     }
 

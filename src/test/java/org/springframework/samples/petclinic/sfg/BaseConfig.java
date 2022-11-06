@@ -10,6 +10,7 @@ public class BaseConfig {
 
     @Bean
     HearingInterpreter hearingInterpreter(WordProducer wordProducer){
+
         return new HearingInterpreter(wordProducer);
     }
 }

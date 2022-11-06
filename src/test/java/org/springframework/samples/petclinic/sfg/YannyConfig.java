@@ -11,6 +11,7 @@ public class YannyConfig {
 
     @Bean
     public YannyWordProducer yannyWordProducer(){
+
         return new YannyWordProducer();
     }
 

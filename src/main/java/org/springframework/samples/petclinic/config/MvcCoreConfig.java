@@ -100,7 +100,7 @@ public class MvcCoreConfig implements WebMvcConfigurer {
 		// they can be refered to inside JSP files (see header.jsp for more
 		// details)
 		registry.addResourceHandler("/resources/**").addResourceLocations(
-				"/resources/");
+				"/resources/spring/");
 		// uses WebJars so Javascript and CSS libs can be declared as Maven dependencies (Bootstrap, jQuery...)
 		registry.addResourceHandler("/webjars/**").addResourceLocations(
 				"classpath:/META-INF/resources/webjars/");

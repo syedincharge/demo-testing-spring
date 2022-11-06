@@ -48,4 +48,10 @@ class ClinicServiceImplTest {
        assertThat(returnedPetTypes).isNotNull();
 
     }
+
+    @Test
+    void findOwnerById() {
+
+
+    }
 }

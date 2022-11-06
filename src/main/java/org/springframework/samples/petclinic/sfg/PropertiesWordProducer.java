@@ -10,10 +10,7 @@ import org.springframework.stereotype.Component;
 @Profile({"externalized","laurel-properties"})
 @Primary
 public class PropertiesWordProducer implements WordProducer{
-
-
     private String word;
-
     @Value("${say.word}")
     public void setWord(String word) {
         this.word = word;
